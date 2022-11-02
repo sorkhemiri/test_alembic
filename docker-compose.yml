@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  db:
+    restart: always
+    image: postgres:10.18-alpine
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=goldenstate_db
+    ports:
+      - 5432:5432
