@@ -1,4 +1,10 @@
 # ALEMBIC
+## installation
+```bash
+pip install psycopg2-binary
+pip install alembic
+```
+## First Steps
 to create folder structure
 ```bash
 alembic init alembic
